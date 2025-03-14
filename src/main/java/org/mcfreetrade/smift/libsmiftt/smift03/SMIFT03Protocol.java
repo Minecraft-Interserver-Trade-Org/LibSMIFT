@@ -1,4 +1,4 @@
-package alessandrosalerno.smift.libsmift.smift03;
+package org.mcfreetrade.smift.libsmiftt.smift03;
 
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
@@ -15,15 +15,15 @@ import javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
-import alessandrosalerno.smift.libsmift.SMIFTAESReader;
-import alessandrosalerno.smift.libsmift.SMIFTAESWriter;
-import alessandrosalerno.smift.libsmift.SMIFTChannel;
-import alessandrosalerno.smift.libsmift.SMIFTMessage;
-import alessandrosalerno.smift.libsmift.SMIFTProtocol;
-import alessandrosalerno.smift.libsmift.SMIFTProtocolHook;
-import alessandrosalerno.smift.libsmift.SMIFTRSAReader;
-import alessandrosalerno.smift.libsmift.SMIFTRSAWriter;
-import alessandrosalerno.smift.libsmift.SMIFTUtils;
+import org.mcfreetrade.smift.libsmiftt.SMIFTAESReader;
+import org.mcfreetrade.smift.libsmiftt.SMIFTAESWriter;
+import org.mcfreetrade.smift.libsmiftt.SMIFTChannel;
+import org.mcfreetrade.smift.libsmiftt.SMIFTMessage;
+import org.mcfreetrade.smift.libsmiftt.SMIFTProtocol;
+import org.mcfreetrade.smift.libsmiftt.SMIFTProtocolHook;
+import org.mcfreetrade.smift.libsmiftt.SMIFTRSAReader;
+import org.mcfreetrade.smift.libsmiftt.SMIFTRSAWriter;
+import org.mcfreetrade.smift.libsmiftt.SMIFTUtils;
 
 public class SMIFT03Protocol implements SMIFTProtocol {
     public static class Messages {

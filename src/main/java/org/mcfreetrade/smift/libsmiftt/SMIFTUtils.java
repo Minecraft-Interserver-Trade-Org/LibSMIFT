@@ -1,4 +1,4 @@
-package alessandrosalerno.smift.libsmift;
+package org.mcfreetrade.smift.libsmiftt;
 
 import javax.crypto.*;
 import javax.crypto.spec.IvParameterSpec;

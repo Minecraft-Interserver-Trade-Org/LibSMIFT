@@ -1,4 +1,4 @@
-package alessandrosalerno.smift.libsmift;
+package org.mcfreetrade.smift.libsmiftt;
 
 public interface SMIFTProtocol {
     void loop();

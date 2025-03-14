@@ -1,4 +1,4 @@
-package alessandrosalerno.smift.libsmift;
+package org.mcfreetrade.smift.libsmiftt;
 
 import java.io.IOException;
 import java.io.InputStream;

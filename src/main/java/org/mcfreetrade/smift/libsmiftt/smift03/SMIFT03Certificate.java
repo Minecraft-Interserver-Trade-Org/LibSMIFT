@@ -1,4 +1,4 @@
-package alessandrosalerno.smift.libsmift.smift03;
+package org.mcfreetrade.smift.libsmiftt.smift03;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -20,7 +20,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
-import alessandrosalerno.smift.libsmift.SMIFTUtils;
+import org.mcfreetrade.smift.libsmiftt.SMIFTUtils;
 
 public class SMIFT03Certificate {
     // Name

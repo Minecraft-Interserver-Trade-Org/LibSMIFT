@@ -1,9 +1,8 @@
-package alessandrosalerno.smift.libsmift;
+package org.mcfreetrade.smift.libsmiftt;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.lang.reflect.Constructor;
 
 public class SMIFTChannel {
     private final InputStream input;
